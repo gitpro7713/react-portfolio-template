@@ -1,5 +1,5 @@
 /**
- * @author Ryan Balieiro
+ * @author Christopher Powell
  * @description Use this script to wipe all existing resume data and start fresh with a blank resume.
  *
  * @usage
@@ -38,7 +38,7 @@ jsonUtils.overwrite(jSettingsPath, {
     preloaderSettings: {
         enabled: true,
         title: "React <b>Portfolio</b>",
-        subtitle: "by Ryan Balieiro",
+        subtitle: "by Christopher Powell",
         logoOffset: {
             right: 14,
             top: 2,
@@ -112,7 +112,6 @@ const jStringsPath = "public/data/strings.json"
 const jStrings = jsonUtils.open(jStringsPath)
 delete jStrings.locales["es"]
 delete jStrings.locales["fr"]
-delete jStrings.locales["ko"]
 for(let i in jStrings.locales["en"]) {
     if(i.startsWith("see_") && i !== "see_more")
         delete jStrings.locales["en"][i]

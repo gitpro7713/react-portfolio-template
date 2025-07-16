@@ -18,12 +18,6 @@
                 "title_short_nav": "Éducation",
                 "title_long_prefix": "C'est mon",
                 "title_long": "{{Contexte}} Éducatif"
-            },
-            "ko": {
-                "title_short": "교육",
-                "title_short_nav": "교육",
-                "title_long_prefix": "이것은 내",
-                "title_long": "{{교육적}} 배경"
             }
         }
     },
@@ -70,14 +64,6 @@
                             "institution": "Udacity",
                             "text": "J'ai terminé avec succès un programme Nanodegree intensif axé sur [[PHP development]], au cours duquel j'ai acquis une expérience pratique approfondie dans la création d'applications web dynamiques et évolutives.",
                             "list": []
-                        },
-                        "ko": {
-                            "title": "PHP 개발 {{Nanodegree}}",
-                            "province": "",
-                            "country": "원격",
-                            "institution": "Udacity",
-                            "text": "[[PHP development]]에 중점을 둔 집중형 나노디그리 프로그램을 성공적으로 수료했으며, 동적이고 확장 가능한 웹 애플리케이션을 구축하는 데 있어 폭넓고 실용적인 경험을 쌓았습니다.",
-                            "list": []
                         }
                     }
                 },
@@ -113,15 +99,6 @@
                             "country": "États-Unis",
                             "institution": "MIT",
                             "text": "J'ai obtenu une [[licence en informatique]], avec un accent sur les algorithmes, les structures de données, l’ingénierie logicielle et le développement web. J'ai acquis une solide expérience pratique grâce à divers projets de programmation, des bootcamps de code et des activités collaboratives en équipe.",
-                            "list": [],
-                            "tags": []
-                        },
-                        "ko": {
-                            "title": "컴퓨터 과학 {{학사}}",
-                            "province": "매사추세츠",
-                            "country": "미국",
-                            "institution": "MIT",
-                            "text": "알고리즘, 자료 구조, 소프트웨어 공학, 웹 개발에 중점을 둔 [[컴퓨터 과학 학사 학위]]를 취득하였습니다. 다양한 프로그래밍 프로젝트, 코딩 부트캠프, 그리고 팀 기반의 협업 활동을 통해 실무 경험을 쌓았습니다.",
                             "list": [],
                             "tags": []
                         }
@@ -182,22 +159,6 @@
                                 "Réseaux de neurones",
                                 "Apprentissage automatique"
                             ]
-                        },
-                        "ko": {
-                            "title": "인공지능 {{석사}}",
-                            "province": "",
-                            "country": "프랑스",
-                            "institution": "파리 대학교",
-                            "text": "[[최첨단 인공지능 주제]]를 중심으로 한 종합적인 석사 과정을 수료하였으며, 주요 내용은 다음과 같습니다:",
-                            "list": [
-                                "머신러닝",
-                                "자연어 처리 (NLP)",
-                                "신경망"
-                            ],
-                            "tags": [
-                                "신경망",
-                                "머신러닝"
-                            ]
                         }
                     }
                 },
@@ -249,19 +210,6 @@
                                 "Le développement de [[nouveaux algorithmes]] pour la reconnaissance d’images"
                             ],
                             "tags": ["Apprentissage profond", "Vision par ordinateur", "Recherche en IA", "Algorithmes"]
-                        },
-                        "ko": {
-                            "title": "컴퓨터 과학 {{박사}}",
-                            "province": "매사추세츠",
-                            "country": "미국",
-                            "institution": "하버드 대학교",
-                            "text": "[[딥러닝]] 및 그 실생활 적용에 중점을 둔 박사 과정을 진행 중이며, 주요 연구 분야는 다음과 같습니다:",
-                            "list": [
-                                "컴퓨터 비전",
-                                "혁신적인 인공지능 연구",
-                                "이미지 인식을 위한 새로운 알고리즘 개발"
-                            ],
-                            "tags": ["딥러닝", "컴퓨터 비전", "AI 연구", "알고리즘"]
                         }
                     }
                 }

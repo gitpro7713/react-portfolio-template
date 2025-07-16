@@ -1,5 +1,5 @@
 {
-    "name": "Mark Choi",
+    "name": "Christopher Powell",
 
     "profilePictureUrl": "images/pictures/profile-picture.jpg",
     "resumePdfUrl": "",
@@ -10,10 +10,11 @@
 
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
+            "localized_name": "Christopher Powell",
+            "localized_name_stylized": " [[Christopher {{Powell}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
+                "Senior Full Stack Developer",
                 "Backend Developer",
                 "Frontend Developer",
                 "DevOps Engineer",
@@ -36,17 +37,6 @@
                 "Développeur Frontend",
                 "Ingénieur DevOps",
                 "Designer UX"
-            ]
-        },
-        "ko": {
-            "localized_name": "최민석",
-            "localized_name_stylized": "{{최}}민석",
-            "status_message_available_for_freelance": "프리랜스 가능합니다!",
-            "roles": [
-                "백엔드 개발자",
-                "프론트엔드 개발자",
-                "데브옵스 엔지니어",
-                "UX 디자이너"
             ]
         }
     }

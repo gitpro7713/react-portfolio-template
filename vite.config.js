@@ -17,7 +17,8 @@ export default defineConfig({
                     }
                 }
             }
-        }
+        },
+        outDir: 'build'
     },
     css: {
         preprocessorOptions: {

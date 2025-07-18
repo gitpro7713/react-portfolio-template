@@ -24,6 +24,7 @@ export const _fileUtils = {
     loadJSON: async (path) => {
         try {
             const resolvedPath = _fileUtils.resolvePath(path)
+            console.log(resolvedPath.replace('//', '/'))
             const response = await fetch(resolvedPath)
             const contentType = response.headers.get("content-type") || ""
 
@@ -47,6 +48,6 @@ export const _fileUtils = {
         if(path.startsWith("http"))
             return path
         const baseUrl = _fileUtils.BASE_URL || ""
-        return baseUrl + path
+        return (baseUrl + path).replace('//', '/')
     },
 }
